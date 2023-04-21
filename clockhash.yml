@@ -1,0 +1,7 @@
+codebase: java
+kubeconfig-file: /home/avinash/.kubeconfig
+registry:
+  password: bmFudTQz
+  registryname: dockerhub
+  username: avi263
+repo: github
