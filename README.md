@@ -3,6 +3,13 @@
 Auto Ci-cd generator is a Python-based application that utilizes the OpenAI feature to generate the Docker file, basic deployment, and service manifest file for Kubernetes. Additionally, it generates a pipeline file depending on the provider in which the user provides. This application helps beginner users to deploy applications in Kubernetes and set up pipelines without requiring much expertise.
 <br>
 
+
+<h1><b>Requirements</h1></b>
+1.An openapi token has to be generated for using auto-cicd. The steps for activating an openai token is in the link below
+<br>
+https://platform.openai.com/account/api-keys
+<br>
+2.You need to clone your application directory to the machine to detect the codebase of the application.
 <h2><b2>Architecture of the Application</h2></b2>
 The Auto Ci-cd generator consists of a YAML file for user input. In this file, the user inputs the details of their image registry and their password. An example format of how the file looks like:
 <br>
