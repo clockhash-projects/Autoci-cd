@@ -9,7 +9,8 @@ Auto Ci-cd generator is a Python-based application that utilizes the OpenAI feat
 <br>
 https://platform.openai.com/account/api-keys
 <br>
-2.You need to clone your application directory to the machine to detect the codebase of the application.
+2.User need to clone the application directory to the machine to detect the codebase of the application.
+<br>
 3. User needs to generate the token for repository access for github/gitlab and also mention this token in the script.
 <h2><b2>Architecture of the Application</h2></b2>
 The Auto Ci-cd generator consists of a YAML file for user input. In this file, the user inputs the details of their image registry and their password. An example format of how the file looks like:
