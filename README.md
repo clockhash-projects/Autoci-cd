@@ -66,6 +66,7 @@ This command generates the necessary deployment manifest files, Docker file, and
   <br></br>
   <a href="https://ibb.co/tMGjZLX"><img src="https://i.ibb.co/vxFysXY/cicd.jpg" alt="cicd" border="0"></a>
 <br>
-<h5><b5>Conclusion</h5></b5>
+
+<h1><b>Conclusion</h1></b>
 <br>
 The Auto Ci-cd generator is an application that simplifies the process of deploying applications in Kubernetes and setting up pipelines. With just a few inputs, users can generate the necessary files required for deployment. Follow the installation steps to start using the Auto Ci-cd generator today!
