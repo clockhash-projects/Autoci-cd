@@ -17,16 +17,18 @@ https://platform.openai.com/account/api-keys
 <h2><b2>Architecture of the Application</h2></b2>
 The Auto Ci-cd generator consists of a YAML file for user input. In this file, the user inputs the details of their image registry and their password. An example format of how the file looks like:
 <br>
-
-#YAML
 <br>
-`ymlcodebase: nodejs`
+
+#Clockhash.yml
+<br>
+<br>
+`codebase: <detects-automatically>`
 <br>
 `registry: <registry_url>`
 <br>
-  `password: c2ltcGxlcGFzcw==`
+   `password: <your_password>`
   <br>
-  `username: avinash2632`
+   `username: <your_username>`
   <br>
 `repo: gitlab`
 <br>
@@ -46,11 +48,11 @@ To install and use the Auto Ci-cd generator, follow these steps:
 
 <b5>Step 2</b5>: Use the command below:
 
-`echo 'python3  /home/autocicd.py "$@"' | sudo tee /usr/local/bin/autocicd >/dev/null && sudo chmod +x /usr/local/bin/autocicd`
+`echo 'python3  <location_of_autocicd.py> "$@"' | sudo tee /usr/local/bin/autocicd >/dev/null && sudo chmod +x /usr/local/bin/autocicd`
 <br></br>
-This command exports the autocicd file. Replace the </home/autocicd.py> file with the cloned file location.
+This command exports the autocicd file. Replace the `<location_of_autocicd.py>` file with the cloned file location.
 
-<b7> Step 3 </b7>
+<b7> Step 3 </b7>: Export the openai key
 
 Use the export command in linux like `export=<openai_key>` and use `set=<openai_key>` in windows.
 <br></br>
