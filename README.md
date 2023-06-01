@@ -1,5 +1,5 @@
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/k1qfCR2/clockhash.png" alt="clockhash" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/vXHbKvz/image.png" alt="clockhash" border="0"></a>
 <h1><b>Introduction</h1></b>
 <br>
 Auto Ci-cd generator is a Python-based application that utilizes the OpenAI feature to generate the Docker file, basic deployment, and service manifest file for Kubernetes. Additionally, it generates a pipeline file depending on the provider in which the user provides. This application helps beginner users to deploy applications in Kubernetes and set up pipelines without requiring much expertise.
