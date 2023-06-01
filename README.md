@@ -26,9 +26,9 @@ The Auto Ci-cd generator consists of a YAML file for user input. In this file, t
 <br>
 `registry: <registry_url>`
 <br>
-   `password: <your_password>`
+   `  password: <your_password>`
   <br>
-   `username: <your_username>`
+   `  username: <your_username>`
   <br>
 `repo: gitlab`
 <br>
