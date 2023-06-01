@@ -1,4 +1,4 @@
-#a sample file
+#a sample clockhash.yml file
 
 codebase: java
 kubeconfig-file: /home/avinash/.kubeconfig
